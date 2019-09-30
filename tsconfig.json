@@ -20,5 +20,9 @@
     "vendor",
     "public"
   ],
+  "include": [
+    "app/javascript/**/*.vue",
+    "app/javascript/**/*.ts"
+  ],
   "compileOnSave": false
 }
