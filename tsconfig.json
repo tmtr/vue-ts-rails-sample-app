@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
+    "strict": true,
     "declaration": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "lib": ["es6", "dom"],
-    "module": "es6",
+    "lib": ["dom", "dom.iterable", "esnext", "esnext.array"],
+    "module": "commonjs",
     "moduleResolution": "node",
     "baseUrl": ".",
     "paths": {
