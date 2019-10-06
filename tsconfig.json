@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["dom", "dom.iterable", "esnext", "esnext.array"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*", "app/javascript/*"],
+      "@/*": ["app/javascript/*"]
+    },
+    "sourceMap": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "**/*.spec.ts",
+    "node_modules",
+    "vendor",
+    "public"
+  ],
+  "include": [
+    "app/javascript/**/*.vue",
+    "app/javascript/**/*.ts"
+  ],
+  "compileOnSave": false
+}
